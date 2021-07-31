@@ -1,0 +1,33 @@
+@use 'index';
+
+.site-header {
+	background-color: index.$dark-bg;
+	text-align: center;
+	padding: 30px;
+	&__title {
+		margin-bottom: 20px;
+		color: index.$main-color;
+	}
+	&__input {
+		background-color: transparent;
+		border: 2px solid white;
+		border-bottom-left-radius: 1rem;
+		border-top-left-radius: 1rem;
+		width: 45vw;
+		height: 2.5rem;
+		color: white;
+		padding: 0 10px;
+	}
+	&__submit {
+		border-bottom-right-radius: 1rem;
+		border-top-right-radius: 1rem;
+		border: none;
+		height: 2.5rem;
+		padding: 0 20px;
+		font-weight: 700;
+		&:active {
+			background-color: index.$main-color;
+			color: white;
+		}
+	}
+}

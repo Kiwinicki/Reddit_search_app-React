@@ -1,0 +1,8 @@
+@use 'index';
+
+.site-footer {
+	background-color: index.$dark-bg;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
